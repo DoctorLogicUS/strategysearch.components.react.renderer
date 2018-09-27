@@ -1,6 +1,7 @@
 {
   "name": "strategysearch.components.react.renderer",
   "version": "1.0.0",
+  "private": true,
   "description": "React renderer package for StrategySearch.Components.",
   "main": "./dist/index.js",
   "scripts": {
