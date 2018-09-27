@@ -5,7 +5,7 @@
   "description": "React renderer package for StrategySearch.Components.",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "npx webpack",
+    "build": "npx tsc",
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,10 +22,7 @@
   "devDependencies": {
     "@types/react": "^16.4.14",
     "@types/react-dom": "^16.0.8",
-    "awesome-typescript-loader": "^5.2.1",
-    "typescript": "^3.1.1",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.1"
+    "typescript": "^3.1.1"
   },
   "dependencies": {
     "react": "^16.5.2",
